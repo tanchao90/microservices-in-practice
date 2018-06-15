@@ -14,10 +14,10 @@
 web:
   image: 'gitlab/gitlab-ce:latest'
   restart: always
-  hostname: 'gitlab.tanchao90.top'
+  hostname: '域名'
   environment:
     GITLAB_OMNIBUS_CONFIG: |
-      external_url 'http://gitlab.tanchao90.top'
+      external_url 'http://域名'
       # Add any other gitlab.rb configuration here, each on its own line
   ports:
     - '20443:443'
