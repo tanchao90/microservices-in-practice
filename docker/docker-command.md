@@ -22,6 +22,8 @@
 #### Container
 - `$ docker stop webserver`
 - `$ docker rm webserver`
+- `$ docker attach <name of container>` 进入容器，退出时自动关闭容器
+- `$ docker exec -it <name of container> /bin/bash` 进入容器，退出时不关闭容器
 
 
 ## Example
