@@ -1,5 +1,5 @@
 # GitLab
-GitLab 目前的功能已经非常强大，有丰富的功能，足以支持团队开发，对于一般用户，CE（Community Edition） 版本已经够用；
+GitLab 目前的功能已经非常强大，足以支持团队开发，对于一般用户，CE（Community Edition） 版本已经够用；
 - [GitLab](https://about.gitlab.com/)
 
 
