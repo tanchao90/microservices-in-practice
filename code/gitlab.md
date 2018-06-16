@@ -61,7 +61,7 @@ web:
 - `$ gitlab-ctl tail` 监听日志
 
 
-#### 个性化设置
+## 个性化设置
 - 开启邮件服务，具体参数见上文配置文件
     - [GitLab邮件配置](https://www.jianshu.com/p/b91d2e676cba)
     - [云主机 TCP 25 端口出方向被封禁？](https://cloud.tencent.com/document/product/215/12390) 需要在腾讯云控制台申请解封 25 端口出口，否则邮件无法发送出来
@@ -112,6 +112,7 @@ server {
 - 在文件末尾加入 `0 2 * * * docker exec -t docker-gitlab-web gitlab-rake gitlab:backup:create`，表示每天夜里两点执行备份
 
 定期生成的备份文件依旧在服务器上，需要手动从服务器拉取文件到本地，后期可考虑通过自动化脚本备份到指定机器；PS：GitLab 支持上传到 AWS，国内只能看看了-^-
+
 `scp -i ssh_private_key -r username@ip:/srv/gitlab/backups/ .`
 
 
