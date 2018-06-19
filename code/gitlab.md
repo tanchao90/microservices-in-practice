@@ -95,6 +95,8 @@ server {
 }
 ```
 
+Nginx 访问日志目录：`/var/log/nginx`
+
 
 ## 备份和还原
 - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
